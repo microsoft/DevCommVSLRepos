@@ -39,15 +39,10 @@ namespace MyOverrideMethod
 
         }
 
-
-
         private void mycombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
-
-
+            MessageBox.Show("SelectionChanged Event Triggered!");
         }
-
 
     }
 }
